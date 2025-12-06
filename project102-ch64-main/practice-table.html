@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 100%;
+            border:1px solid gray;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: left;
+        }
+        tr:nth-child(even){
+            background-color: #dedede;
+        }
+        th{
+            background-color: #dedede;
+        }
+        .student{
+            color: rgb(132, 10, 10);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tables</h1>
+    </header>
+<!--
+we area using internal CSS    
+-->
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Assignment 1</th>
+                    <th>Discussion 1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="student">Leomar</td>
+                    <td>6.66</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td class="student">Ron</td>
+                    <td>6.00</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td class="student">Mark</td>
+                    <td>6.66</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td class="student">Mark</td>
+                    <td>6.66</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td class="student">Mark</td>
+                    <td>6.66</td>
+                    <td>0.00</td>
+                </tr>
+                <tr>
+                    <td class="student">Mark</td>
+                    <td>6.66</td>
+                    <td>0.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
